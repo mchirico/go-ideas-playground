@@ -1,7 +1,10 @@
 package idea
 
-import "testing"
-
+import (
+	"testing"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
+)
 func TestThing(t *testing.T) {
 	type args struct {
 		a string
